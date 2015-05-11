@@ -44,3 +44,18 @@ def test_is_word_complete():
     assert not is_word_complete(word, ["r", "e"])
     assert not is_word_complete(word, ["r", "e", "z"])
     assert is_word_complete(word, ["r", "e", "v", "i"])
+
+# def test_words_grouped_by_length():
+#     list = ["bird", "calf", "river"]
+#     assert words_groupd_by_length(list) == "4: ["bird", "calf"], 5: ["river"]" 
+
+# def test_user_guess():
+#     letter_guess = 5
+#     guess = ['D', 'T', 'V']
+#     assert user_guess(guess) == user_guess(guess)
+
+# def test_user_choose_level():
+#     level = "E"
+#     list = ["bird", "calf", "river", "stream", "kneecap",  "cookbook",
+#             "language", "sneaker", "algorithm", "integration", "brain"]
+#     assert user_choose_level(list) == ["bird", "calf", "river", "stream", "brain"]

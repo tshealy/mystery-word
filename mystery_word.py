@@ -209,7 +209,7 @@ def word_game(file_path):
         return exit()
 
 ################################################################################
-"""Ask why this does not work"""
+
 # def counting(count, random_word, users_guess):
 #
 #     """If the user chooses correctly the number of guesses does not subtract."""
